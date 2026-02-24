@@ -12,6 +12,6 @@ nombre = "Juan Jose"
 edad = 22
 altura = 1.75
 
-print(f"Mi nombre es: {nombre} y tengo {edad} y mido {altura}")
+print(f"Mi nombre es: {nombre} y tengo {edad} anos y mido {altura}")
 
 
