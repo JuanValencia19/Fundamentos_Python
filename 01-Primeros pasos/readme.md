@@ -1,31 +1,44 @@
-# 🐍 Día 1 – Fundamentos de Python
+# 🐍 Día 1 – Fundamentos Básicos de Python
 
-## 🎯 Objetivo del día
-Dominar:
+## 🎯 Objetivo
+Practicar:
+- Estructura básica de un programa
 - Variables
 - Tipos de datos
 - Operaciones matemáticas
-- Entrada y salida
-- Conversión de tipos
+- Entrada y salida de datos
 
 ---
 
-## 📘 Ejercicio 1 – Presentación Personal
+## 🟢 Ejercicio 1 — Tu Primera Salida
 
-Crear un programa que:
-- Guarde tu nombre en una variable
-- Guarde tu edad en otra variable
-- Imprima un mensaje de presentación
+Escribe un programa que imprima en pantalla:
+
+Bienvenido a mi camino en Python
 
 ---
 
-## 📘 Ejercicio 2 – Operaciones Básicas
+## 🟢 Ejercicio 2 — Variables Simples
 
-Declarar:
-a = 15  
-b = 4  
+Declara tres variables:
 
-Imprimir:
+- nombre (string)
+- edad (int)
+- altura (float)
+
+Imprime todas en una sola línea usando print().
+
+---
+
+## 🟢 Ejercicio 3 — Operaciones Matemáticas Básicas
+
+Declara:
+
+a = 20  
+b = 5  
+
+Calcula e imprime:
+
 - Suma
 - Resta
 - Multiplicación
@@ -33,85 +46,113 @@ Imprimir:
 
 ---
 
-## 📘 Ejercicio 3 – Cálculo de Ganancia Potencial
+## 🟢 Ejercicio 4 — Potencia y Módulo
 
-Declarar:
-capital = 100000  
-cuota = 2.5  
+Declara:
 
-Calcular:
+numero = 7  
+
+Calcula e imprime:
+
+- numero elevado al cuadrado
+- residuo de numero dividido entre 3
+
+---
+
+## 🟢 Ejercicio 5 — Entrada de Datos Simple
+
+Pide al usuario:
+
+- Su nombre
+
+Imprime:
+
+Hola, [nombre ingresado]
+
+---
+
+## 🟢 Ejercicio 6 — Entrada Numérica y Conversión
+
+Pide al usuario:
+
+- Un número entero
+
+Convierte el dato correctamente y calcula su doble.
+
+Imprime el resultado.
+
+---
+
+## 🟢 Ejercicio 7 — Cálculo de Ganancia
+
+Declara:
+
+capital = 50000  
+cuota = 1.8  
+
+Calcula:
+
 - Ganancia total
 - Ganancia neta
 
----
-
-## 📘 Ejercicio 4 – Probabilidad Implícita
-
-Pedir al usuario una cuota.
-Calcular la probabilidad implícita.
-Mostrarla en porcentaje.
+Imprime ambos resultados.
 
 ---
 
-## 📘 Ejercicio 5 – Conversión de Tipos
+## 🟢 Ejercicio 8 — Conversión de Tipos
 
-Pedir al usuario su edad.
-Mostrar el tipo antes y después de convertirla a entero.
+Declara:
 
----
+numero = "25"
 
-## 📘 Ejercicio 6 – Área de un Rectángulo
+Convierte esa variable a entero y súmale 10.
 
-Pedir base y altura.
-Calcular e imprimir el área.
+Imprime el resultado.
 
 ---
 
-## 📘 Ejercicio 7 – Conversión de Moneda
+## 🟢 Ejercicio 9 — Operación Combinada
 
-Declarar:
-dolares = 100  
-tasa_cambio = 4000  
+Pide al usuario:
 
-Convertir a pesos colombianos.
+- Dos números decimales
 
----
+Calcula:
 
-## 📘 Ejercicio 8 – Calculadora Simple
+(resultado1 + resultado2) * 2
 
-Pedir:
-- Dos números
-- Una operación (+, -, *, /)
-
-Mostrar resultado.
+Imprime el resultado final.
 
 ---
 
-## 📘 Ejercicio 9 – Comparación de Cuotas
+## 🟢 Ejercicio 10 — Cálculo de Probabilidad Implícita
 
-Pedir dos cuotas.
-Calcular sus probabilidades implícitas.
-Indicar cuál tiene mayor probabilidad.
+Pide al usuario:
 
----
+- Una cuota decimal
 
-## 📘 Ejercicio 10 – Mini Simulador de Apuesta
+Calcula:
 
-Pedir:
-- Capital disponible
-- Monto a apostar
-- Cuota
+probabilidad = 1 / cuota
 
-Calcular:
-- Ganancia potencial
-- Total si gana
-- Total si pierde
+Imprime el resultado en formato decimal y en porcentaje.
 
 ---
 
-# 📌 Notas
+# 📌 Recomendaciones
 
-Todos los ejercicios deben:
-- Manejar correctamente tipos de datos
-- Usar variables claras
-- Tener comentarios explicando el código
+- Usa nombres de variables claros
+- Agrega comentarios explicando cada parte
+- Asegúrate de convertir correctamente los tipos con int() o float()
+- No copies y pegues: entiende cada línea
+
+---
+
+# 🚀 Meta del Día
+
+Al finalizar estos ejercicios deberías:
+
+- Sentirte cómodo creando variables
+- Entender cómo funcionan los tipos de datos
+- Saber recibir datos del usuario
+- Realizar cálculos básicos correctamente
