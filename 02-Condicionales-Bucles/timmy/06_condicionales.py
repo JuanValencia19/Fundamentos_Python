@@ -15,8 +15,8 @@ os.system("cls")
 cuota = float(input("Cuotas\n1. Gano\n0. Perdio\nEscribe tu cuota: "))
 
 while cuota != 0 and cuota != 1:
-    print("Valor incorrecto, ingresa un numero correcto")
-    cuota = float(input("Cuotas\n1. Gano\n0. Perdio\nEscribe tu cuota: "))
+    print("Valor incorrecto, ingresa el valor correcto.")
+    cuota = float(input("Cuotas\n1. Gano\n0. Perdio\nEscribe la cuota correctamente: "))
     
 if cuota == 1:
     print(f"Resultado final: {100 * cuota}")
