@@ -25,6 +25,7 @@ local = partido[0]
 visitante = partido[1]
 goles_local = partido[2]
 goles_visitante = partido[3]
+print(local)
 
 # 1️⃣2️⃣ Comparación de goles
 # Usando la tupla:
