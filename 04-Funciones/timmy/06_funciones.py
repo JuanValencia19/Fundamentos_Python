@@ -24,3 +24,16 @@ print(resultado)
 # Forma simple con operador ternario
 # def calcular_ganancia(monto, cuota, gano):
 #     return monto * cuota if gano else 0
+
+'''
+OPERADOR TERNARIO - EXPRESION CONDICIONAL
+
+Forma tradicional
+if edad >= 18:
+    mensaje = "Mayor de edad"
+else:
+    mensaje = "Menor de edad"
+
+Forma compacta
+mensaje = "Mayor de edad" if edad >= 18 else "Menor de edad"
+'''
