@@ -12,9 +12,9 @@ os.system("cls")
 
 gano = True
 
-def calcular_ganancia(monto, cuota, gano):
+def calcular_ganancia(monto: float, cuota: float, gano: bool = False):
     if gano:
-        return (f"Ganaste {monto * cuota}, felicidades")
+        return (f"Ganaste: ${round(monto * cuota):,} felicidades.")
     else:
         return ("No ganaste nadita")
     

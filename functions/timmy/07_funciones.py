@@ -12,13 +12,13 @@ os.system("cls")
 
 cuota = 2.3
 
-def clasificar_cuota(cuota):
+def clasificar_cuota(cuota: float):
     if cuota < 1.8:
-        return ("Favorito")
+        return "Favorito"
     elif cuota <= 2.5:
-        return ("Equilibrado")
+        return "Equilibrado"
     else:
-        return ("No favorito")
+        return "No favorito"
     
 resultado = clasificar_cuota(cuota)
 print(resultado)
