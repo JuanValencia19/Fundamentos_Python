@@ -9,7 +9,7 @@ Muestra el resultado.
 import os
 os.system("cls")
 
-def probabilidad(cuota):
+def probabilidad(cuota: float):
     return round(1 / cuota, 2)
 
 print(probabilidad(2.3))

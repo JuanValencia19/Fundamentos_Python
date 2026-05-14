@@ -34,9 +34,9 @@ Pregunta al usuario qué equipo quiere consultar.
 Si existe en el diccionario → muestra sus datos.
 Si no → muestra "Equipo no encontrado".
 '''
-search_team = input("Escribe tu equipo de futbol favorito: ")
+search_team = input("Escribe tu equipo de futbol favorito: ").title()
 
 if search_team in equipos_fuchibol:
-    print("Equipo encontrado", equipos_fuchibol[search_team])
+    print(f"Equipo encontrado: {search_team} -> {equipos_fuchibol[search_team]}")
 else:
     print("Equipo no encontrado")

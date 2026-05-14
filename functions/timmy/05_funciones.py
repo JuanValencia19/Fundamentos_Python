@@ -7,7 +7,7 @@ False si es impar
 import os
 os.system("cls")
 
-def es_par(numero):
+def es_par(numero: int):
     if numero % 2 == 0:
         print("True")
     else:

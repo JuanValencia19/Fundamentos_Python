@@ -10,7 +10,7 @@ os.system("cls")
 
 repeticiones = {}
 
-resultados = ["local", "empate", "local", "visitante", "local"]
+resultados = ["local", "empate", "local", "visitante", "local", "visitante", "local"]
 
 for i in resultados:
     if i in repeticiones:

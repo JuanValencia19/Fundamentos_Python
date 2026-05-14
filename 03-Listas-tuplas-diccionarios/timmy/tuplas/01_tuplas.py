@@ -40,7 +40,7 @@ Determina quién ganó el partido usando condicionales.
 '''
 
 if goles_local == goles_visitante:
-    print("Partido igualado")
+    print("Partido empatado")
 elif goles_local > goles_visitante:
     print(f"Equipo ganador: {local}")
 else:

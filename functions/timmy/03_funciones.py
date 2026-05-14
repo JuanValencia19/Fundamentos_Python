@@ -6,7 +6,8 @@ Imprime el resultado al llamarla.
 import os 
 os.system("cls")
 
-def sumar(a, b):
-    return a + b
+def sumar(number_one: int, number_two: int):
+    resultado = number_one + number_two
+    return resultado
 
 print(sumar(10, 2))

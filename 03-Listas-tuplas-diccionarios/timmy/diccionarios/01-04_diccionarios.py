@@ -27,7 +27,7 @@ Agrega una nueva clave llamada "estadio".
 '''
 
 equipo["estadio"] = "Old Trafford"
-print(equipo)
+print(equipo["estadio"])
 
 '''
 ## 1️⃣5️⃣ Modificar valor
@@ -35,7 +35,7 @@ Cambia el número de títulos.
 '''
 
 equipo["titulos"] = 70
-print(equipo)
+print(equipo["titulos"])
 
 '''
 ## 1️⃣6️⃣ Recorrer diccionario
