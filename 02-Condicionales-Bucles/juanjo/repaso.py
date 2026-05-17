@@ -100,11 +100,29 @@
 #         print(i)
 
 #Ejercicio 6
-saldo = 1000
-while saldo > 0:
-    saldo -= 100
-    print(saldo)
-    if saldo == 0:
-        print("Fondos insuficientes")
+# saldo = 1000
+# while saldo > 0:
+#     saldo -= 100
+#     print(saldo)
+#     if saldo == 0:
+#         print("Fondos insuficientes")
+
+#Ejercicio 7
+
+# suma = 0
+# for i in range(4):
+#     couta = input("Ingrese la cantidad de la couta: ")
+#     suma += couta
+
+# promedio = suma / 5
+# print("El promedio es: ", promedio)
+
+#Ejercicio 8
+while True:
+    contador = int(input("Ingrese un numero entero cualquiera o 0 para finalizar:"))
+    if contador == 0:
+        print("Programa finalizado")
+        break
+
 
 
