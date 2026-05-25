@@ -7,6 +7,8 @@
 # ---
 
 class Jugador:
+    """Representa a un jugador de fútbol."""
+
     def __init__(self, nombre, edad, posicion):
         self.nombre = nombre
         self.edad = edad
