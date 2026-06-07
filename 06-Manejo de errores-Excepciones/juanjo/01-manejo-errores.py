@@ -14,3 +14,5 @@ try:
     print(num1 / num2)
 except:
     print("Se ha producido un error al dividir por cero")
+else: 
+    print("Programa ejecutado correctamente")
