@@ -7,13 +7,12 @@
 # - Maneja el error mostrando mensaje personalizado
 
 def validar_cuota():
-
     try:
         cuota = float(input("Ingresa una couta: "))
         if cuota <= 1:
             # lanzar error
-            raise ValueError("Mensaje")
-    except ValueError:
-        print("Couta demasiado baja")
+            raise ValueError("La cuota debe ser mayor que 1")
+    except ValueError as error:
+        print(error)
 
-print(validar_cuota())
+validar_cuota()
