@@ -12,18 +12,11 @@ class Estudiante:
     def estudiar(self):
         print(f"el estudiante {self.nombre} esta estudiando")
 
-estudiante1 = Estudiante("","","")
-
 nombre_estudiante = str(input("Ingrese el nombre del estudiante: "))
 
 edad_estudiante = int(input("Ingrese la edad del estudiante: "))
 
 grado_estudiante = input("Ingrese el grado del estudiante")
 
-estudiante1.nombre = nombre_estudiante
-
-estudiante1.edad = edad_estudiante
-
-estudiante1.grado = grado_estudiante
-
+estudiante1 = Estudiante(nombre_estudiante, edad_estudiante, grado_estudiante)
 estudiante1.estudiar()
