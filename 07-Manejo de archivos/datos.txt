@@ -1,0 +1,2 @@
+Proyecto de análisis de apuestas deportivas
+Este repositorio es para practicar Python y análisis deportivo
